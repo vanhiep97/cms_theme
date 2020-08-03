@@ -5,11 +5,11 @@ import App from './App'
 import router from './router'
 import store from './store'
 import i18n from './plugins/i18n';
+import Cookies from 'js-cookie';
 import { loadVeeValidate } from './plugins/vee-validate';
 loadVeeValidate(Cookies.get('locale') || 'ja')
 import BootstrapVue from 'bootstrap-vue';
 import { IconsPlugin } from 'bootstrap-vue';
-import './assets/styles/index.scss'
 
 Vue.use(Meta);
 Vue.use(BootstrapVue);
