@@ -8,10 +8,7 @@
         <i class="icon-bell"></i><span class="badge badge-pill badge-danger">5</span>
       </b-nav-item>
       <b-nav-item class="d-md-down-none">
-        <i class="icon-list"></i>
-      </b-nav-item>
-      <b-nav-item class="d-md-down-none">
-        <i class="icon-location-pin"></i>
+        <BoxLanguage />
       </b-nav-item>
       <b-nav-item-dropdown right>
         <template slot="button-content">
@@ -37,8 +34,12 @@
   </header>
 </template>
 <script>
+import BoxLanguage from '../components/BoxLanguage'
     export default {
         name: 'Header',
+        components: {
+          BoxLanguage
+        },
         data() {
             return {
                 dropdown: false

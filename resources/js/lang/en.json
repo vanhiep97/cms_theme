@@ -1,3 +1,10 @@
 {
-    "welcomeMessage": "Hello"
+    "commons": {
+        "label_language": "Language",
+        "locale": {
+            "language_title_vi": "Vietnamese",
+            "language_title_en": "English",
+            "language_title_ja": "Japanese"
+        }
+    }
 }

@@ -1,3 +1,10 @@
 {
-    "welcomeMessage": "Xin chao"
+    "commons": {
+        "label_language": "Ngôn ngữ",
+        "locale": {
+            "language_title_vi": "Tiếng việt",
+            "language_title_en": "Tiếng anh",
+            "language_title_ja": "Tiếng nhật"
+        }
+    }
 }

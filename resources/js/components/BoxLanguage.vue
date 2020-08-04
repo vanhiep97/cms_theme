@@ -1,6 +1,6 @@
 <template>
     <div class="box-language">
-        <b-dropdown text="Button text via Prop">
+        <b-dropdown :text="$t('commons.label_language')">
             <b-form-group :label="$t('commons.label_language')">
                 <b-form-radio-group
                     name="radios-stacked"
